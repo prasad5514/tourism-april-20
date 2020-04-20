@@ -3,7 +3,7 @@ let pwd=document.getElementById("pwd");
 function validate()
 {
     var regexpemail=/^([A-Za-z0-9\.-]+)@([A-Za-z0-9\-]+).([a-z]{2,3})(.[a-z]{2,3})?$/
-         //var regexppwd=/^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z]{6,}$/
+         //var regexppwd=/^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z]{6,}$/just edited
          if((regexpemail.test(email.value))&&(pwd.value!=""))
          {
              error1.innerHTML=" email and password is valid";
